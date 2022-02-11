@@ -1,13 +1,4 @@
-// var wordLengths = [];
 
-// for (let i = 0; i < allWords.length; i++){
-//   if (!wordLengths[allWords[i].length]){
-//     wordLengths[allWords[i].length] = [];
-//   }
-//   wordLengths[allWords[i].length].push(allWords[i]);
-// }
-
-// console.log(JSON.stringify(wordLengths, null, 2));
 
 function scoreDifficulty(w){
   let letters = [];
@@ -51,7 +42,6 @@ class hangRigger{
 
   getWord(){
     let out = this.possibilities[Math.floor(Math.random() * this.possibilities.length)];
-    console.log(out);
     return out;
   }
 }
