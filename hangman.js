@@ -1,6 +1,5 @@
 
-var winScreen = popup(`<h1 style="display: inline-block; vertical-align: middle;">You Won</h1>
-<img src="./banner.png" style="margin: auto; display: inline-block"></img>`, playHangman);
+
 
 function playHangman(){
 
